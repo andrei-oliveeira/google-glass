@@ -1,2 +1,2 @@
-# google-glass
- Projeto de criação, aplicação e aperfeiçõamento web do Google Glass, utilizando tecnologias front-end.
+# Google Glass
+ Projeto de criação, aplicação e aperfeiçoamento web do Google Glass, utilizando tecnologias front-end.
