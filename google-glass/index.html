@@ -2,38 +2,34 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/_css/styles.css">
-    <title>Home</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/_css/styles.css">
+	<title>Home</title>
 </head>
 <script>
-	function mudaFoto(foto) 
-		{document.getElementById("icon").src = foto;}
+	function mudaFoto(foto) { document.getElementById("icon").src = foto; }
 </script>
+
 <body>
-    <header>
-        <section class="header__image">
-            <img id="icon" src="../_google/_imagens/glass-oculos-preto-peq.png" />
-        </section>
-        <nav class="header__menu">
-            <a class="header__menu__link" href="../_google/index.html" target="_self"
-                onmouseover="mudaFoto('../_google/_imagens/home.png')"
-                onmouseout="mudaFoto('../_google/_imagens/home.png')">Home</a>
-            <a class="header__menu__link" href="../_google/specifications.html" target="_self"
-                onmouseover="mudaFoto('../_google/_imagens/especificacoes.png')"
-                onmouseout="mudaFoto('../_google/_imagens/home.png')">Especificações</a>
-            <a class="header__menu__link" href="../_google/picture.html" target="_self"
-                onmouseover="mudaFoto('../_google/_imagens/fotos.png')"
-                onmouseout="mudaFoto('../_google/_imagens/home.png')">Fotos</a>
-            <a class="header__menu__link" href="../_google/contact-us.html" target="_self"
-                onmouseover="mudaFoto('../_google/_imagens/contato.png')"
-                onmouseout="mudaFoto('../_google/_imagens/home.png')">Fale conosco</a>
-        </nav>
-    </header>
-    <main class="presentation">
-		<div class="presentation__column__left">	
+	<header class="header">
+		<hgroup class="presentation__title">
+			<h1><strong>Google</strong> Glass</h1>
+			<h2>A revolução do Google está chegando<h2>
+		</hgroup>
+		<section class="header__image">
+			<img id="icon" src="assets/_imagens/glass-oculos-preto-peq.png"/>	
+		</section>
+		<nav class="header__menu">
+			<a class="header__menu__link" href="index.html" target="_self" onmouseover="mudaFoto('../_imagens/home.png')" onmouseout="mudaFoto('../_google/_imagens/home.png')">Home</a>
+			<a class="header__menu__link" href="../_google/specifications.html" target="_self" onmouseover="mudaFoto('../_google/_imagens/especificacoes.png')" onmouseout="mudaFoto('../_google/_imagens/home.png')">Especificações</a>
+			<a class="header__menu__link" href="../_google/picture.html" target="_self" onmouseover="mudaFoto('../_google/_imagens/fotos.png')" onmouseout="mudaFoto('../_google/_imagens/home.png')">Fotos</a>
+			<a class="header__menu__link" href="../_google/contact-us.html" target="_self" onmouseover="mudaFoto('../_google/_imagens/contato.png')" onmouseout="mudaFoto('../_google/_imagens/home.png')">Fale conosco</a>
+		</nav>
+	</header>
+	<main class="presentation">
+		<div class="presentation__column__left">
 			<section class="presentation__caption">
 				<h1>Saiba tudo sobre o Google Glass</h1>
 				<h2>por Andrei Scola</h2>
@@ -41,59 +37,95 @@
 			</section>
 			<section class="presentation__main">
 				<h2>O que é</h2>
-				<p>O <strong>Google Glass</strong> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://google.com./glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+				<p>O <strong>Google Glass</strong> é um acessório em forma de óculos que possibilita a interação dos
+					usuários com diversos conteúdos em realidade aumentada. Também chamado de <a
+						href="https://google.com./glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz
+					de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar
+					vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil.
+					Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente
+					gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e
+					de desbloqueio de tela para o acessório.</p>
 			</section>
-			<figure class="picture__subtitle">	
+			<figure class="picture__subtitle">
 				<figcaption class="picture__subtitle__son">
 					<h2>Google Glass: uma nova maneira de ver o mundo!</h2>
-					<img src="../_google/_imagens/glass-quadro-homem-mulher.jpg"/>
+					<img src="../_google/_imagens/glass-quadro-homem-mulher.jpg" />
 				</figcaption>
 			</figure>
 			<section class="text__launch">
 				<h2>Data de lançamento</h2>
-				<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
+				<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja
+					disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo
+					menos, 2014.</p>
 			</section>
 			<section class="table">
 				<h2>Especificações Técnicas</h2>
 				<table class="table__specification">
 					<caption>Tabela Técnica do Google Glass | Mar/2013</caption>
-					<tr><td class="ce">Tela</td> <td class="cd">Resolução equivalente a tela de 25"</td></tr>
-					<tr><td rowspan="2" class="ce">Camera</td> <td class="cd">5MP para fotos</td></tr>
-					<tr><td class="cd">720p para vídeos</td></tr>
-					<tr><td rowspan="2" class="ce">Conectividade</td> <td class="cd">Wi-Fi</td></tr>
-					<tr><td class="cd">Bluetooth</td></tr>
-					<tr><td class="ce">Memória Interna</td> <td class="cd">12GB</td></tr>	
+					<tr>
+						<td class="ce">Tela</td>
+						<td class="cd">Resolução equivalente a tela de 25"</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="ce">Camera</td>
+						<td class="cd">5MP para fotos</td>
+					</tr>
+					<tr>
+						<td class="cd">720p para vídeos</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="ce">Conectividade</td>
+						<td class="cd">Wi-Fi</td>
+					</tr>
+					<tr>
+						<td class="cd">Bluetooth</td>
+					</tr>
+					<tr>
+						<td class="ce">Memória Interna</td>
+						<td class="cd">12GB</td>
+					</tr>
 				</table>
 			</section>
 			<section class="text__operation">
 				<h2>Como funciona</h2>
-				<p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
+				<p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED
+					na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se
+					situar, assim como selecionar opções com o movimento da cabeça</p>
 			</section>
 			<video class="main__movie" controls="controls" poster="../_google/_imagens/video-mini01.jpg">
-				<source src="_media/one-day.mp4" type="video/mp4"/>
+				<source src="_media/one-day.mp4" type="video/mp4" />
 			</video>
 		</div>
 
 		<div class="presentation__column__right">
 			<aside class="side">
 				<h2>O que você pode fazer com o Google Glasses</h2>
-				<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-&shy;humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
+				<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de
+					“super-&shy;humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o
+					metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros
+					apenas com comandos de voz.</p>
 				<h2>Outras Notícias</h2>
 				<h3>Vídeo mais recente</h3>
 				<video class="movie__side" controls="controls" poster="../_google/_imagens/video-mini02.jpg">
-					<source src="_media/how-it-feels.mp4" type="video/mp4"/>
+					<source src="_media/how-it-feels.mp4" type="video/mp4" />
 				</video>
 				<h2>Novidades no Glass</h2>
-				<p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
-				<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equi&shy;valeria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
+				<p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda
+					inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por
+					condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de
+					microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
+				<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão
+					640 x 360 pixels de resolução que, em proporção, equi&shy;valeria a um monitor de 25 polegadas de
+					alta definição colocado a 2,5 metros de distância do espectador.</p>
 			</aside>
 		</div>
 	</main>
 
 	<footer class="main__footer">
-		<p><a class="footer__link" href="https://linkedin.com/in/andreioliveirascola" target="_blank">Linkedin</a></p> 
-		<p><a class="footer__link" href="https://github.com/andrei-oliveeira" target="_blank"> Github </a></p>	
+		<p><a class="footer__link" href="https://linkedin.com/in/andreioliveirascola" target="_blank">Linkedin</a></p>
+		<p><a class="footer__link" href="https://github.com/andrei-oliveeira" target="_blank"> Github </a></p>
 		<p class="footer__text">Copyright &copy; 2013 | Desenvolvido por Andrei Scola</p>
 	</footer>
 </body>
+
 </html>
