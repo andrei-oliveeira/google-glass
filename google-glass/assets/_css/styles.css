@@ -13,15 +13,11 @@
 	--cor-quintenaria: #f6f6f6;
 }
 
-html {
+body {
 	background: linear-gradient(to bottom, var(--cor-secundaria), var(--cor-terciaria)) no-repeat;
 	height: 100vh;
-	min-height: 100%;
 	box-sizing: border-box;
 	color: var(--cor-primaria);
-	font-family: 'Arial', sans-serif;
-	background-image: url(../_imagens/page-back-google-glass.jpg);
-	background-size: cover;
 }
 
 .header {
