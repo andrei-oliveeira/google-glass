@@ -106,13 +106,13 @@ body {
 .presentation__caption h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 .presentation__caption h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 0.40rem;
+	font-size: 0.8rem;
 }
 
 .presentation__main {
@@ -122,14 +122,14 @@ body {
 .presentation__main h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	text-shadow: 2px 2px 2px #606060;
 }
 
 .presentation__main p {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .picture__subtitle {
@@ -174,7 +174,7 @@ body {
 .text__launch h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	text-shadow: 2px 2px 2px var(--cor-secundaria);
 }
 
@@ -197,7 +197,7 @@ body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	text-shadow: 2px 2px 2px var(--cor-secundaria);
 }
 
@@ -210,7 +210,7 @@ body {
 .table__specification caption {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 0.40rem;
+	font-size: 0.8rem;
 }
 
 .table__specification td {
@@ -227,6 +227,7 @@ body {
 }
 
 .cd {
+	font-family: 'Montserrat', sans-serif;
 	text-align: left;
 }
 
@@ -239,7 +240,7 @@ body {
 .text__operation h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	text-shadow: 2px 2px 2px var(--cor-secundaria);
 }
 
@@ -278,7 +279,7 @@ body {
 .side h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	text-shadow: 2px 2px 2px var(--cor-secundaria);
 }
 
