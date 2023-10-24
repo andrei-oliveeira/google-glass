@@ -11,10 +11,11 @@
 	--cor-terciaria: #ffffff;
 	--cor-quartenaria: #cecece;
 	--cor-quintenaria: #f6f6f6;
+	--cor-hover: #E9EBFF;
 }
 
 body {
-	background: linear-gradient(to bottom, var(--cor-secundaria), var(--cor-terciaria)) no-repeat;
+	background: linear-gradient(to bottom, var(--cor-secundaria), var(--cor-hover), var(--cor-terciaria)) no-repeat;
 	height: 100vh;
 	box-sizing: border-box;
 	color: var(--cor-primaria);
@@ -58,25 +59,23 @@ body {
 .header__menu {
 	display: flex;
 	justify-content: center;
-	gap: 5px;
+	gap: 15px;
 }
 
 .header__menu__link {
 	text-decoration: none;
 	color: var(--cor-primaria);
-	background-color: var(--cor-quartenaria);
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.25rem;
-	border: 2px solid var(--cor-primaria);
-	border-radius: 10px 0 10px 0;
-	box-shadow: 2px 2px 2px var(--cor-primaria);
+	font-weight: 600;
+	font-size: 1.10rem;
 	padding: 1% 2%;
-	transition: 1s;
+	transition: 0.7s;
 }
 
 .header__menu__link:hover {
-	background-color: var(--cor-secundaria);
+	/* background-color: var(--cor-secundaria); */
 	color: var(--cor-terciaria);
+	letter-spacing: 1px;
 }
 
 .presentation {
@@ -286,7 +285,7 @@ body {
 .side h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--cor-primaria);
-	font-size: 0.40rem;
+	font-size: 0.9rem;
 }
 
 .side p {
@@ -324,7 +323,7 @@ body {
 	text-decoration: none;
 	color: var(--cor-quintenaria);
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	transition: all 0.5s ease;
 }
 
@@ -336,7 +335,7 @@ body {
 .footer__text {
 	color: var(--cor-quintenaria);
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.5rem;
+	font-size: 0.7rem;
 }
 
 @media(min-width: 1px) and (max-width: 600px) {
